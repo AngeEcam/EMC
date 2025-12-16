@@ -1,10 +1,5 @@
 # Rapport Technique : Conception et Analyse de Filtres EMI pour Convertisseurs à Découpage
 
-## Résumé
-Les alimentations à découpage et convertisseurs DC-DC sont des sources majeures de perturbations électromagnétiques (EMI) en raison des commutations rapides des semi-conducteurs (GaN, SiC, Si). Ces transitions génèrent des fronts de tension ($dV/dt$) et de courant ($dI/dt$) qui se propagent par conduction et rayonnement. Ce rapport formalise les mécanismes de couplage, détaille les topologies de filtrage passif et analyse les contraintes critiques telles que la stabilité du système (critère de Middlebrook) et l'impact des éléments parasites des composants réels.
-
----
-
 ## 1. Pourquoi la CEM devient critique en électronique de puissance
 La Compatibilité Électromagnétique (CEM) n'est pas seulement une contrainte normative (CISPR, IEC), c'est une nécessité fonctionnelle. Un équipement doit :
 * **Limiter ses émissions :** Pour ne pas polluer le réseau ou perturber les communications sans fil.
